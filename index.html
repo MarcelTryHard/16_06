@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Profissional</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main class="login-wrapper">
+        <form class="login-card" aria-labelledby="login-title">
+            <h1 id="login-title">Acessar Sistema</h1>
+            
+            <div class="message success" role="alert">
+                Bem-vindo! Por favor, insira suas credenciais.
+            </div>
+
+            <div class="field">
+                <label for="username">Usuário</label>
+                <input type="text" id="username" name="username" required autocomplete="username">
+            </div>
+
+            <div class="field">
+                <label for="password">Senha</label>
+                <input type="password" id="password" name="password" required autocomplete="current-password">
+            </div>
+
+            <button id="Entrar"  type="submit">Entrar</button>
+        </form>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
