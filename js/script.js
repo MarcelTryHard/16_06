@@ -8,7 +8,6 @@ form.addEventListener('submit', (event) => {
     const password = document.getElementById('password').value;
     const hora = new Date().toLocaleTimeString();
 
-    // Credenciais para validação
     const validUser = "admin";
     const validPass = "123456";
 
@@ -18,3 +17,10 @@ form.addEventListener('submit', (event) => {
 
     console.log(`[${hora}] Tentativa: ${username} | Status: ${status}`);
 });
+
+
+
+// const loginForm = document.querySelector('#login-form');
+// const emailInput = document.querySelector('#email');
+// const passwordInput = document.querySelector('#password');
+// const massaheInput = document.querySelector('#massage');
